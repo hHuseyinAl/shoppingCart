@@ -1,0 +1,58 @@
+[
+    {
+        "id":1,
+        "name":"Laptop",
+        "price":49999,
+        "imgUrl":"../../public/images/laptop.avif",
+        "info":"A laptop is a portable personal computer that usually consists of two parts: a screen and a keyboard. A laptop combines the components of a desktop computer, such as the keyboard, mouse, and screen, into a single part."
+    },
+    {
+        "id":2,
+        "name":"Glasses",
+        "price":2999,
+        "imgUrl":"../../public/images/gozluk.jpg",
+        "info":"Sunglasses protect your eyes from harmful UV rays by blocking UV (Ultraviolet) rays. UV protection is a feature found on sunglass lenses and is usually indicated by a number or label. The UV protection rating indicates how much UV rays the sunglass lenses can block."
+    },
+    {
+        "id":3,
+        "name":"Watch",
+        "price":19999,
+        "imgUrl":"../../public/images/saat.webp",
+        "info":"The first wristwatch is believed to have been made by watchmaker Abraham-Louis Breguet in 1810 and sold to the Queen of Naples on December 5, 1811. Soldiers first wore wristwatches in the late 19th century. The Garstin Company of London patented the 'Watch Wristlet' design in 1893."
+    },
+    {
+        "id":4,
+        "name":"Camera",
+        "price":29999,
+        "imgUrl":"../../public/images/kamera.png",
+        "info":"A camera is an optical instrument that captures a visual image. At a basic level, cameras are closed boxes. Cameras have various mechanisms to control how light falls on a photosensitive surface. Lenses focus the light entering the camera, and the size of the aperture can be widened or narrowed."
+    },
+    {
+        "id":5,
+        "name":"Shoes",
+        "price":1999,
+        "imgUrl":"../../public/images/ayakkabı.jpg",
+        "info":"Shoes are any type of footwear that protects the feet from foreign substances and different weather conditions by preventing direct contact with the ground, as well as completing the elegance. There are many different types such as boots, ankle boots, sandals, high heels, sneakers, and slippers."
+    },
+    {
+        "id":6,
+        "name":"Book",
+        "price":199,
+        "imgUrl":"../../public/images/kitap.png",
+        "info":"A book is a medium for recording information in the form of writing or images. Books are typically composed of many pages, bound together and protected by a cover. Modern bound books were preceded by many other written mediums, such as the codex, the scroll and the tablet."
+    },
+    {
+        "id":7,
+        "name":"Chair",
+        "price":999,
+        "imgUrl":"../../public/images/sandalye.webp",
+        "info":"A chair is a type of seat, typically designed for one person and consisting of one or more legs, a flat or slightly angled seat and a back-rest. It may be made of wood, metal, or synthetic materials, and may be padded or upholstered in various colors and fabrics. Chairs vary in design."
+    },
+    {
+        "id":8,
+        "name":"Phone",
+        "price":39999,
+        "imgUrl":"../../public/images/telefon.webp",
+        "info":"A smartphone, often simply called a phone, is a mobile device that combines the functionality of a traditional mobile phone with advanced computing capabilities."
+    }
+]
