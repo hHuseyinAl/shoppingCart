@@ -1,50 +1,27 @@
-# React + TypeScript + Vite
+<h3 align="center">ShoppingCart</h3>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h4>A shoppingCart web app that includes Home and Store pages. Also has Cart section that you can organize the products.</h4>
+<p align="left">
+  Web app dependencies:
+-bootstrap,
+-react,
+-react-bootstrap,
+-react-dom,
+-react-icons,
+-react-router-dom
+</p>
 
-Currently, two official plugins are available:
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="bootstrap" width="40" height="40"/><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/></p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h3 align="left">Photos:</h3>
 
-## Expanding the ESLint configuration
+![home](https://github.com/user-attachments/assets/d9df6777-4414-41f5-829d-ef2ebe47ab40)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+![Store](https://github.com/user-attachments/assets/0b138372-2d20-4d34-a30d-59a496ce6bab)
 
-- Configure the top-level `parserOptions` property like this:
+![store cart close](https://github.com/user-attachments/assets/a62671cc-937a-416f-9987-53d5cee6de11)
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+![store cart](https://github.com/user-attachments/assets/12e7673b-36b0-4faf-834a-537a4fd3b773)
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+![home responsive](https://github.com/user-attachments/assets/edb84692-b240-4d56-a4e0-25ee55a1badd)
