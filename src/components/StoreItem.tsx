@@ -32,12 +32,12 @@ const StoreItem = ({ id, name, price, imgUrl }: StoreItemProps) => {
                     ) :
                         <div className="flex flex-col gap-3">
                             <div className="flex flex-row justify-center gap-10">
-                                <button onClick={()=>increaseCartQuantity(id)} className="border-solid border-gray-500 border-2 rounded-md p-1 hover:border-black transition"><FiPlus /></button>
+                                <button onClick={()=>increaseCartQuantity(id)} className="increase-decrease-button"><FiPlus /></button>
                                 <h2><span>{quantity}</span> in Cart</h2>
-                                <button onClick={()=>decreaseCartQuantity(id)} className="border-solid border-gray-500 border-2 rounded-md p-1 hover:border-black transition"><FiMinus /></button>
+                                <button onClick={()=>decreaseCartQuantity(id)} className="increase-decrease-button"><FiMinus /></button>
                             </div>
                             <div className="flex justify-center">
-                                <button onClick={()=>removeFromCart(id)} className="border-solid border-gray-500 border-2 rounded-md p-1 px-5 hover:border-red-700 hover:text-red-700 transition ">Remove</button>
+                                <button onClick={()=>removeFromCart(id)} className="remove-button rounded-md p-1 px-5">Remove</button>
                             </div>
                         </div>
                     }

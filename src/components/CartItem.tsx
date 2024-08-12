@@ -28,7 +28,7 @@ const CartItem = ({ id, quantity }: Props) => {
             </div>
             <div className="flex items-center gap-2">
                 <div>{formatCurrency((item.price) * quantity)}</div>
-                <button onClick={()=>removeFromCart(id)} className="p-0.5 border-solid border-gray-500 border-2 hover:border-red-700 hover:text-red-700 transition"><IoIosClose /></button>
+                <button onClick={()=>removeFromCart(id)} className="remove-button p-0.5"><IoIosClose /></button>
             </div>
         </div>
     )
